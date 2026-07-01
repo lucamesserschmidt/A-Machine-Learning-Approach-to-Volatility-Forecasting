@@ -4,6 +4,10 @@ A from-scratch replication and critical extension of Christensen, Siggaard & Vel
 *"A Machine Learning Approach to Volatility Forecasting,"* Journal of Financial Econometrics,
 for a seminar in Financial Risk Modelling (University of Göttingen).
 
+**Skills demonstrated:** time-series forecasting, machine learning (tree ensembles, neural
+networks, regularized linear models), statistical hypothesis testing, backtesting and risk
+model validation, interpretable ML, reproducible research.
+
 The paper's thesis: machine learning (tree ensembles, neural networks) beats the HAR benchmark
 for realized-variance forecasting, but **only** when given a rich predictor set (M_ALL vs M_HAR),
 because ML exploits nonlinearities and interactions the linear HAR model cannot.
