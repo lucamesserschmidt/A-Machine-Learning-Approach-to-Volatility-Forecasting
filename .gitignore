@@ -1,0 +1,27 @@
+# --- Data: never commit. Supervisor-provided bars/messages are proprietary;
+# LOBSTER-derived data has its own redistribution restrictions. ---
+data/*
+!data/README.md
+
+# --- Large / regenerable intermediate results (predictions, checkpoints).
+# Keep only the small curated tables in results/, added explicitly. ---
+results_enhanced/
+results_orderflow/
+*_predictions.csv
+all_test_predictions.csv
+var_backtest_*.csv
+ale_importance_*.csv
+best_model_by_cell.csv
+
+# --- Python ---
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+*.egg-info/
+.venv/
+venv/
+
+# --- OS / editor ---
+.DS_Store
+.vscode/
+.idea/
